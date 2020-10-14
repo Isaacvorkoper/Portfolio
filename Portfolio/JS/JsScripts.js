@@ -6,12 +6,15 @@ $(function() {
 
     setTimeout(function() {
         welcomeSection.removeClass('content-hidden');
-    }, 500);
-
-    enterButton.on('click', function(e) {
-        e.preventDefault();
-        welcomeSection.addClass('content-hidden').fadeOut();
-    });
+    }, 50);
 
 
-})();
+
+
+});
+
+function one() {
+    document.getElementById('1').style.opacity = '0';
+    setInterval(function(){ location.href = "AboutMe.html" }, 1000);
+}
+

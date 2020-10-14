@@ -97,7 +97,7 @@ body {
     top: 50%;
     transform: translate3d(-50%, -50%, 0);
 }
-.welcome-section .content-wrap .enter-button {
+.welcome-section .content-wrap {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -107,6 +107,19 @@ body {
     opacity: 1;
     transition: all 1s ease 2s;
 }
+
+.enter-button {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    opacity: 1;
+    transition: all 1s ease ;
+    cursor: pointer;
+}
+
 .welcome-section.content-hidden .content-wrap .enter-button { opacity: 0; transform: translate3d(0, -30px, 0); }
 
 @media (min-width: 800px) {
