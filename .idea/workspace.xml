@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="">
+    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="Baggrund lavet til om &quot;mig siden&quot;.">
+      <change afterPath="$PROJECT_DIR$/Portfolio/Pictures/WaterFlowFinal.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/JS/JsScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/JS/JsScripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/AboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/Pictures/WaterFlow.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602058817211</updated>
       <workItem from="1602058822102" duration="18571000" />
-      <workItem from="1602483037689" duration="30392000" />
+      <workItem from="1602483037689" duration="30821000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1602074505416</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602509345871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Velkomstside færdig og main side påbegyndt.">
+      <created>1602681807332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602681807378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +107,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Velkomstside påbegyndt." />
     <MESSAGE value="Velkomstside næsten færdig." />
-    <option name="LAST_COMMIT_MESSAGE" value="Velkomstside næsten færdig." />
+    <MESSAGE value="Velkomstside færdig og main side påbegyndt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Velkomstside færdig og main side påbegyndt." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Deployment" timestamp="1602592615921">
@@ -119,10 +127,11 @@
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
     <state x="-211" y="-766" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602501628185" />
-    <state x="-678" y="-1073" key="CommitChangelistDialog2" timestamp="1602509344510">
-      <screen x="-918" y="-1200" width="1920" height="1160" />
+    <state x="-678" y="-1069" key="CommitChangelistDialog2" timestamp="1602681805570">
+      <screen x="-918" y="-1200" width="1920" height="1200" />
     </state>
     <state x="-678" y="-1073" key="CommitChangelistDialog2/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602509344510" />
+    <state x="-678" y="-1069" key="CommitChangelistDialog2/0.0.1536.824/-918.-1200.1920.1200@-918.-1200.1920.1200" timestamp="1602681805570" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602060616472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -139,10 +148,11 @@
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
     <state x="-457" y="-976" key="SettingsEditor/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602162121338" />
-    <state x="-366" y="-888" key="Vcs.Push.Dialog.v2" timestamp="1602509351190">
-      <screen x="-918" y="-1200" width="1920" height="1160" />
+    <state x="-366" y="-877" key="Vcs.Push.Dialog.v2" timestamp="1602681817896">
+      <screen x="-918" y="-1200" width="1920" height="1200" />
     </state>
     <state x="-366" y="-888" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602509351190" />
+    <state x="-366" y="-877" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1200@-918.-1200.1920.1200" timestamp="1602681817896" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1602502370402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
