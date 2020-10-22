@@ -18,3 +18,4 @@ function one() {
     setInterval(function(){ location.href = "AboutMe.html" }, 1000);
 }
 
+

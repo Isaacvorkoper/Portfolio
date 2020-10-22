@@ -1,16 +1,24 @@
+@font-face {
+    font-family: Didact-Gothic;
+    src: url('../Fonts/DidactGothic-Regular.ttf');
+}
+
 body {
-    background: #000;
-    min-height: 100vh;
+    background: black;
+    height: 100%;
+    width: 100%;
     display: grid;
     overflow: hidden;
     place-items: center;
-    color: white;
     font-family:  'Open Sans', Arial, sans-serif;
     font-weight: 700;
 }
 
+/* Glitch tekst */
 .glitch {
-    font-size: 8rem;
+    margin-top: 10%;
+    color: white;
+    font-size: 9vw;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
@@ -80,6 +88,7 @@ body {
     }
 }
 
+/* Enter knap */
 * {
     margin: 0;
     padding: 0;
@@ -124,4 +133,44 @@ body {
 
 @media (min-width: 800px) {
     .welcome-section .content-wrap .enter-button { font-size: 1.5em; }
+}
+
+#VidBack {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.sidechanger {
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.arrowleft {
+    max-width: 5vw;
+    transform:rotate(90deg);
+}
+
+.arrowright {
+    max-width: 5vw;
+    transform:rotate(-90deg);
+}
+
+.panel {
+    position: relative;
+    cursor: default;
+}
+
+.portrait {
+    position: absolute !important;
+    height: 20vw;
+    z-index: 1;
+}
+
+.introtxt {
+    font-family: Didact-Gothic;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px white;
 }
