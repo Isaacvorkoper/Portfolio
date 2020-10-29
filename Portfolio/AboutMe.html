@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,18 +13,60 @@
     <source src="Pictures/WaterFlowFinal.mp4" type="video/mp4">
 </video>
 
-<div class="sidechanger">
-    <img class="arrowleft" src="Pictures/PortPil.png">
-    <img class="arrowright" src="Pictures/PortPil.png">
+<div class="row" id="pagechanger">
+    <div class="col-5" style="display: flex; margin-left: 36.5%; margin-top: 2%">
+            <div class="currentpage">
+                <p class="page active" id="Homepage" onclick="location.href = '#Home'" style="margin-right: 15px">Hjem</p>
+                <p class="page" id="Ompage" onclick="location.href = '#Om'" style="margin-right: 15px">Om mig</p>
+                <p class="page" id="Tidpage" onclick="location.href = '#Tidslinje'" style="margin-right: 15px" >Tidslinje</p>
+                <p class="page" id="Propage" onclick="location.href = '#Projekter'" style="margin-right: 15px" >Projekter</p>
+                <p class="page" id="Konpage" onclick="location.href = '#Kontakt'" style="margin-right: 15px" >Kontakt</p>
+            </div>
+    </div>
 </div>
 
-<div class="row" id="Home" style="height: 100%; width: 100%">
-    <div class="col-3" style="margin-left: 28%; max-width: 22%; top: 29%">
-        <img class="portrait" src="Pictures/Placeholder-300x300.png">
-    </div>
-    <div class="col-3" style="top: 29%">
-        <div class="introtxt" style="font-size: 4vw; line-height: 4vw; margin-bottom: 4px">Isaac Vorköper</div>
-        <div class="introtxt" style="font-size: 2.5vw; line-height: 2.5vw">Datatekniker elev med</div>
-        <div class="introtxt" style="font-size: 2.5vw; line-height: 2.5vw">speciale i programmering</div>
+    <div class="row panel" id="Home" style="height: 100vh; width: 100%">
+        <div class="col-3" style="margin-left: 29%; max-width: 22%; top: 29%">
+            <img class="portrait" src="Pictures/Placeholder-300x300.png" alt="Placeholder">
+         </div>
+        <div class="col-3" style="top: 29%">
+            <div class="introtxt" style="font-size: 4vw; line-height: 4vw; margin-bottom: 4px">Isaac Vorköper</div>
+            <div class="introtxt" style="font-size: 2.5vw; line-height: 2.5vw">Datatekniker elev med</div>
+            <div class="introtxt" style="font-size: 2.5vw; line-height: 2.5vw">speciale i programmering</div>
+        </div>
+</div>
+    <div class="row panel" id="Om">
+        <div class="row" style="height: 100%; width: 100%">
+            <div class="col-3" id="hvem" style="margin-left: 10%">
+        </div>
     </div>
 </div>
+
+<div class="row panel" id="Tidslinje">
+    <div class="row" style="height: 100%; width: 100%">
+        <div class="col-3" id="Tid" style="margin-left: 10%">
+        </div>
+    </div>
+</div>
+
+<div class="row panel" id="Projekter">
+    <div class="row" style="height: 100%; width: 100%">
+        <div class="col-3" id="Proj" style="margin-left: 10%">
+        </div>
+    </div>
+</div>
+
+<div class="row panel" id="Kontakt">
+    <div class="row" style="height: 100%; width: 100%">
+        <div class="col-3" id="Kon" style="margin-left: 10%">
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#pagechanger p').click(function(event) {
+    event.preventDefault();
+    $('#pagechanger p').removeClass('active');
+    $(this).toggleClass('active');
+    });
+</script>

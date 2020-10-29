@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="Baggrund lavet til om &quot;mig siden&quot;.">
-      <change afterPath="$PROJECT_DIR$/Portfolio/Pictures/WaterFlowFinal.mp4" afterDir="false" />
+    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="Test.">
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/AboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/Pictures/WaterFlow.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/JS/JsScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/JS/JsScripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +56,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,6 +92,11 @@
       <updated>1602058817211</updated>
       <workItem from="1602058822102" duration="18571000" />
       <workItem from="1602483037689" duration="30821000" />
+      <workItem from="1603450771298" duration="1226000" />
+      <workItem from="1603700888535" duration="1285000" />
+      <workItem from="1603707439408" duration="7155000" />
+      <workItem from="1603782278482" duration="12031000" />
+      <workItem from="1603869497240" duration="18914000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1602074505416</created>
@@ -97,32 +126,75 @@
       <option name="project" value="LOCAL" />
       <updated>1602681807378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test.">
+      <created>1603451159099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603451159099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Velkomstside påbegyndt." />
     <MESSAGE value="Velkomstside næsten færdig." />
     <MESSAGE value="Velkomstside færdig og main side påbegyndt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Velkomstside færdig og main side påbegyndt." />
+    <MESSAGE value="Test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Deployment" timestamp="1602592615921">
+    <state x="325" y="77" key="#Deployment" timestamp="1603712424325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1602592615921" />
+    <state x="325" y="77" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1603712424325" />
+    <state x="395" y="91" key="#Inspections" timestamp="1603714284011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1603714284011" />
     <state x="-366" y="-962" width="816" height="730" key="#Intentions" timestamp="1602162163677">
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
     <state x="-366" y="-962" width="816" height="730" key="#Intentions/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602162163677" />
-    <state x="-504" y="-966" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602138838210">
-      <screen x="-918" y="-1200" width="1920" height="1160" />
+    <state x="444" y="83" key="#Options" timestamp="1603712412028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="83" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1603712412028" />
+    <state x="331" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603712285417">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-504" y="-966" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602138838210" />
+    <state x="331" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603712285417" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603787198279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603787198279" />
     <state x="-211" y="-766" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602501628185">
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
@@ -132,6 +204,10 @@
     </state>
     <state x="-678" y="-1073" key="CommitChangelistDialog2/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602509344510" />
     <state x="-678" y="-1069" key="CommitChangelistDialog2/0.0.1536.824/-918.-1200.1920.1200@-918.-1200.1920.1200" timestamp="1602681805570" />
+    <state x="93" y="93" width="1350" height="638" key="DirDiffDialog" timestamp="1603712098120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1603712098120" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602060616472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -148,14 +224,23 @@
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
     <state x="-457" y="-976" key="SettingsEditor/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602162121338" />
-    <state x="-366" y="-877" key="Vcs.Push.Dialog.v2" timestamp="1602681817896">
-      <screen x="-918" y="-1200" width="1920" height="1200" />
+    <state x="442" y="222" key="Vcs.Push.Dialog.v2" timestamp="1603451162904">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-366" y="-888" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602509351190" />
     <state x="-366" y="-877" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1200@-918.-1200.1920.1200" timestamp="1602681817896" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1602502370402">
+    <state x="442" y="222" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603451162904" />
+    <state x="573" y="142" key="ftp.server.browser" timestamp="1603711920074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602502370402" />
+    <state x="573" y="142" key="ftp.server.browser/0.0.1536.824@0.0.1536.824" timestamp="1603711920074" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1603963815612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603963815612" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603784435594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603784435594" />
   </component>
 </project>

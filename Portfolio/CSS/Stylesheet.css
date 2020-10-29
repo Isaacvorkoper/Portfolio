@@ -3,6 +3,10 @@
     src: url('../Fonts/DidactGothic-Regular.ttf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: black;
     height: 100%;
@@ -12,6 +16,7 @@ body {
     place-items: center;
     font-family:  'Open Sans', Arial, sans-serif;
     font-weight: 700;
+    scroll-snap-type: x mandatory;
 }
 
 /* Glitch tekst */
@@ -28,6 +33,11 @@ body {
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 
     animation: glitch 7000ms infinite;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .glitch span {
@@ -99,6 +109,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
+
 }
 .welcome-section .content-wrap {
     position: absolute;
@@ -143,12 +154,18 @@ body {
 
 #pagechanger {
     position: fixed;
+    display: flex;
     height: 20%;
     width: 100%;
+    z-index: 3;
 }
 
 .page {
     cursor: pointer;
+    display: inline;
+    width: 2vw;
+    height: 2vw;
+    transition: font-size 200ms ease-in-out;
 }
 
 .arrowleft {
@@ -164,15 +181,20 @@ body {
 }
 
 .currentpage {
-    z-index: 3;
-    font-family: Didact Gothic;
+    font-family: Didact Gothic, sans-serif;
     font-size: 1.5vw;
     color: #FFFFFF;
+    transition: 250ms ease-in-out;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .panel {
     position: relative;
-    cursor: default;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 .portrait {
@@ -182,7 +204,7 @@ body {
 }
 
 .introtxt {
-    font-family: Didact-Gothic;
+    font-family: Didact-Gothic, sans-serif;
     color: #FFFFFF;
     text-shadow: 0 0 5px white;
     -webkit-user-select: none; /* Safari */
@@ -191,3 +213,10 @@ body {
     user-select: none; /* Standard */
 }
 
+p {
+    text-decoration:none;
+}
+p.active {
+    font-size: 1.7vw;
+    text-decoration:underline;
+}
