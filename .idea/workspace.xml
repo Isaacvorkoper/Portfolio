@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="Test.">
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+    <list default="true" id="3db9ecf0-4dad-43d1-b1cd-ca5bd2d9ad6c" name="Default Changelist" comment="Navigation mellem siderne lavet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/AboutMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/CSS/Stylesheet.css" afterDir="false" />
@@ -96,7 +95,7 @@
       <workItem from="1603700888535" duration="1285000" />
       <workItem from="1603707439408" duration="7155000" />
       <workItem from="1603782278482" duration="12031000" />
-      <workItem from="1603869497240" duration="18914000" />
+      <workItem from="1603869497240" duration="31872000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1602074505416</created>
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603451159099</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Navigation mellem siderne lavet.">
+      <created>1603979326651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603979326651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,8 @@
     <MESSAGE value="Velkomstside næsten færdig." />
     <MESSAGE value="Velkomstside færdig og main side påbegyndt." />
     <MESSAGE value="Test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test." />
+    <MESSAGE value="Navigation mellem siderne lavet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigation mellem siderne lavet." />
   </component>
   <component name="WindowStateProjectService">
     <state x="325" y="77" key="#Deployment" timestamp="1603712424325">
@@ -224,12 +231,12 @@
       <screen x="-918" y="-1200" width="1920" height="1160" />
     </state>
     <state x="-457" y="-976" key="SettingsEditor/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602162121338" />
-    <state x="442" y="222" key="Vcs.Push.Dialog.v2" timestamp="1603451162904">
+    <state x="442" y="222" key="Vcs.Push.Dialog.v2" timestamp="1603979330813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-366" y="-888" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1160@-918.-1200.1920.1160" timestamp="1602509351190" />
     <state x="-366" y="-877" key="Vcs.Push.Dialog.v2/0.0.1536.824/-918.-1200.1920.1200@-918.-1200.1920.1200" timestamp="1602681817896" />
-    <state x="442" y="222" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603451162904" />
+    <state x="442" y="222" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603979330813" />
     <state x="573" y="142" key="ftp.server.browser" timestamp="1603711920074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

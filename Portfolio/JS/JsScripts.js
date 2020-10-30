@@ -16,6 +16,7 @@ function one() {
     setInterval(function(){ location.href = "AboutMe.html" }, 1000);
 }
 
+
 /*Skift af side*/
 $(".panel").on("click", function (){
     location.href = this.id
@@ -28,6 +29,15 @@ $('#pagechanger p').click(function(event) {
     $('#pagechanger p').removeClass('active');
     $(this).toggleClass('active');
 });
+
+$(window).resize(function() {
+    var url = document.URL;
+    if(url.includes("#"))
+    {
+        var id = url.substring(url.lastIndexOf('#'));
+        location.href = id;
+    }
+})
 
 
 

@@ -14,11 +14,10 @@
 </video>
 
 <div class="row" id="pagechanger">
-    <div class="col-5" style="display: flex; margin-left: 36.5%; margin-top: 2%">
+    <div class="col-5" style="display: flex; margin-left: 39%; margin-top: 2%">
             <div class="currentpage">
                 <p class="page active" id="Homepage" onclick="location.href = '#Home'" style="margin-right: 15px">Hjem</p>
                 <p class="page" id="Ompage" onclick="location.href = '#Om'" style="margin-right: 15px">Om mig</p>
-                <p class="page" id="Tidpage" onclick="location.href = '#Tidslinje'" style="margin-right: 15px" >Tidslinje</p>
                 <p class="page" id="Propage" onclick="location.href = '#Projekter'" style="margin-right: 15px" >Projekter</p>
                 <p class="page" id="Konpage" onclick="location.href = '#Kontakt'" style="margin-right: 15px" >Kontakt</p>
             </div>
@@ -35,38 +34,50 @@
             <div class="introtxt" style="font-size: 2.5vw; line-height: 2.5vw">speciale i programmering</div>
         </div>
 </div>
-    <div class="row panel" id="Om">
+    <div class="row panel" id="Om" style="width: 100%">
         <div class="row" style="height: 100%; width: 100%">
-            <div class="col-3" id="hvem" style="margin-left: 10%">
+            <div class="col-3" id="hvem" style="margin-top: 13.9%; margin-left: 17%">
+                <h1 class="aboutHeadline">Hvem er jeg</h1>
+                <p class="aboutTxt">
+                    Mit navn er Isaac Vorköper
+                </p>
+            </div>
+            <div class="col-3" style="margin-top: 14%">
+                <h1 class="aboutHeadline">Min erfaring</h1>
+                <p class="aboutTxt">
+                    Info om ting jeg kan...
+                </p>
+            </div>
+            <div class="col-3" style="margin-top: 14.2%">
+                <h1 class="aboutHeadline">Min fritid</h1>
+                <p class="aboutTxt">
+                    Min fritid består af....
+                </p>
+            </div>
         </div>
-    </div>
-</div>
-
-<div class="row panel" id="Tidslinje">
-    <div class="row" style="height: 100%; width: 100%">
-        <div class="col-3" id="Tid" style="margin-left: 10%">
-        </div>
-    </div>
 </div>
 
 <div class="row panel" id="Projekter">
     <div class="row" style="height: 100%; width: 100%">
-        <div class="col-3" id="Proj" style="margin-left: 10%">
+        <div class="col-3" id="Proj">
         </div>
     </div>
 </div>
 
-<div class="row panel" id="Kontakt">
+<div class="row panel" id="Kontakt" style="width: 100%">
     <div class="row" style="height: 100%; width: 100%">
-        <div class="col-3" id="Kon" style="margin-left: 10%">
-        </div>
+            <div class="col-5 kontaktinfo" style="margin-top: 15%; margin-left: 38%">
+                Du kan kontakte mig på:
+                <br>
+                <br>
+                <a href="mailto:isaaclennart@gmail.com"> isaaclennart@gmail.com</a>
+            </div>
     </div>
 </div>
-
 <script>
-    $('#pagechanger p').click(function(event) {
-    event.preventDefault();
-    $('#pagechanger p').removeClass('active');
-    $(this).toggleClass('active');
+    $('#pagechanger p').click(function(){
+        $('#pagechanger p').css('text-decoration', 'none');
+        $(this).css('text-decoration', 'underline');
+        return false;
     });
 </script>

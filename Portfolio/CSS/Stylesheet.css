@@ -168,18 +168,6 @@ body {
     transition: font-size 200ms ease-in-out;
 }
 
-.arrowleft {
-    max-width: 5vw;
-    transform:rotate(90deg);
-    cursor: pointer;
-}
-
-.arrowright {
-    max-width: 5vw;
-    transform:rotate(-90deg);
-    cursor: pointer;
-}
-
 .currentpage {
     font-family: Didact Gothic, sans-serif;
     font-size: 1.5vw;
@@ -220,3 +208,30 @@ p.active {
     font-size: 1.7vw;
     text-decoration:underline;
 }
+
+.aboutHeadline {
+    font-family: Didact-Gothic, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px white;
+    font-size: 3vw;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+}
+
+.aboutTxt {
+    color: #FFFFFF;
+    font-size: 1.7vw;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.kontaktinfo {
+    color: #FFFFFF;
+    font-size: 2.5vw;
+}
+
